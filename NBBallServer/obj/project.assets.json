@@ -665,27 +665,32 @@
   },
   "packageFolders": {
     "C:\\Users\\Integral\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Integral\\Documents\\Development\\numericBaseball\\NBBallServer\\NBBallServer.csproj",
+      "projectUniqueName": "C:\\Users\\Integral\\source\\repos\\onlinenumericbaseball\\NBBallServer\\NBBallServer.csproj",
       "projectName": "NBBallServer",
-      "projectPath": "C:\\Users\\Integral\\Documents\\Development\\numericBaseball\\NBBallServer\\NBBallServer.csproj",
+      "projectPath": "C:\\Users\\Integral\\source\\repos\\onlinenumericbaseball\\NBBallServer\\NBBallServer.csproj",
       "packagesPath": "C:\\Users\\Integral\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Integral\\Documents\\Development\\numericBaseball\\NBBallServer\\obj\\",
+      "outputPath": "C:\\Users\\Integral\\source\\repos\\onlinenumericbaseball\\NBBallServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Integral\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Integral\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
