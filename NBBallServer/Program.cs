@@ -27,7 +27,8 @@ namespace NBBallServer
                 {
                     string query = gameController.GetQueryNumber();
                     serverHandler.Write(query);
-                    serverHandler.Write(gameController.EvaluateNumber(serverHandler.Read()));
+                    serverHandler.Write(
+                        gameController.EvaluateNumber(serverHandler.Read()));
                     gameController.DisplayResult(serverHandler.Read());
                 }
 

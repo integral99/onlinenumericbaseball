@@ -29,7 +29,8 @@ namespace NBBallClient
                 {
                     string query = gameController.GetQueryNumber();
                     clientHandler.Write(query);
-                    clientHandler.Write(gameController.EvaluateNumber(clientHandler.Read()));
+                    clientHandler.Write(
+                        gameController.EvaluateNumber(clientHandler.Read()));
                     gameController.DisplayResult(clientHandler.Read());
                 }
 
