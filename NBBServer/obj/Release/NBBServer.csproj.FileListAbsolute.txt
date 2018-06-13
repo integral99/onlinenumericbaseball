@@ -1,0 +1,6 @@
+C:\Users\Integral\source\repos\NBB\NBBServer\bin\Release\NBBServer.exe.config
+C:\Users\Integral\source\repos\NBB\NBBServer\bin\Release\NBBServer.exe
+C:\Users\Integral\source\repos\NBB\NBBServer\bin\Release\NBBServer.pdb
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Release\NBBServer.csproj.CoreCompileInputs.cache
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Release\NBBServer.exe
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Release\NBBServer.pdb

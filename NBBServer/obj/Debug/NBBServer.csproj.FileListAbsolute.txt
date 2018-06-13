@@ -1,0 +1,7 @@
+C:\Users\Integral\source\repos\NBB\NBBServer\bin\Debug\NBBServer.exe.config
+C:\Users\Integral\source\repos\NBB\NBBServer\bin\Debug\NBBServer.exe
+C:\Users\Integral\source\repos\NBB\NBBServer\bin\Debug\NBBServer.pdb
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Debug\NBBServer.csproj.CoreCompileInputs.cache
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Debug\NBBServer.exe
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Debug\NBBServer.pdb
+C:\Users\Integral\source\repos\NBB\NBBServer\obj\Debug\NBBServer.csprojResolveAssemblyReference.cache

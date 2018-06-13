@@ -1,0 +1,6 @@
+C:\Users\Integral\source\repos\NBB\NBB\bin\Debug\NBB.exe.config
+C:\Users\Integral\source\repos\NBB\NBB\bin\Debug\NBB.exe
+C:\Users\Integral\source\repos\NBB\NBB\bin\Debug\NBB.pdb
+C:\Users\Integral\source\repos\NBB\NBB\obj\Debug\NBBClient.csproj.CoreCompileInputs.cache
+C:\Users\Integral\source\repos\NBB\NBB\obj\Debug\NBB.exe
+C:\Users\Integral\source\repos\NBB\NBB\obj\Debug\NBB.pdb
