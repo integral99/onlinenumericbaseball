@@ -1,0 +1,7 @@
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\bin\Release\mergedNBB.exe.config
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\bin\Release\mergedNBB.exe
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\bin\Release\mergedNBB.pdb
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\obj\Release\mergedNBB.csprojResolveAssemblyReference.cache
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\obj\Release\mergedNBB.csproj.CoreCompileInputs.cache
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\obj\Release\mergedNBB.exe
+C:\Users\Integral\source\repos\onlinenumericbaseball\mergedNBB\obj\Release\mergedNBB.pdb

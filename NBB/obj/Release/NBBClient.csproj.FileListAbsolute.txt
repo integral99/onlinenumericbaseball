@@ -5,3 +5,10 @@ C:\Users\Integral\source\repos\NBB\NBB\obj\Release\NBBClient.csproj.CoreCompileI
 C:\Users\Integral\source\repos\NBB\NBB\obj\Release\NBB.exe
 C:\Users\Integral\source\repos\NBB\NBB\obj\Release\NBB.pdb
 C:\Users\Integral\source\repos\NBB\NBB\obj\Release\NBBClient.csprojResolveAssemblyReference.cache
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\bin\Release\NBB.exe.config
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\bin\Release\NBB.exe
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\bin\Release\NBB.pdb
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\obj\Release\NBBClient.csprojResolveAssemblyReference.cache
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\obj\Release\NBBClient.csproj.CoreCompileInputs.cache
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\obj\Release\NBB.exe
+C:\Users\Integral\Source\Repos\onlinenumericbaseball\NBB\obj\Release\NBB.pdb
