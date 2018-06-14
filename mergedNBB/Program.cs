@@ -180,7 +180,7 @@ namespace mergedNBB
             Console.Write("질문할 숫자를 입력하세요 : ");
             string input;
             input = Console.ReadLine();
-            while (input.Length != 4 || int.TryParse(input, out int a) == false)
+            while (input.Length != 4 || int.TryParse(input, out int a) == false || a < 0)
             {
                 Console.Write("4자리 정수로 입력해 주세요 : ");
                 input = Console.ReadLine();
