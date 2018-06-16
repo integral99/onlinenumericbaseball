@@ -1,0 +1,20 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\NBBallClient",
+    "\\NBBallClient\\bin",
+    "\\NBBallClient\\bin\\Debug",
+    "\\NBBallClient\\bin\\Debug\\netcoreapp2.0",
+    "\\NBBallClient\\bin\\Release",
+    "\\NBBallClient\\obj",
+    "\\NBBallServer",
+    "\\NBBallServer\\bin",
+    "\\NBBallServer\\bin\\Debug",
+    "\\NBBallServer\\bin\\Debug\\netcoreapp2.0",
+    "\\NBBallServer\\bin\\Release",
+    "\\NBBallServer\\bin\\Release\\netcoreapp2.0",
+    "\\NBBallServer\\obj"
+  ],
+  "SelectedNode": "\\NBBallServer\\obj\\project.assets.json",
+  "PreviewInSolutionExplorer": false
+}

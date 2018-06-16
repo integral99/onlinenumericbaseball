@@ -29,6 +29,22 @@ namespace NBBallServer
                     serverHandler.Write(query);
                     serverHandler.Write(gameController.EvaluateNumber(serverHandler.Read()));
                     gameController.DisplayResult(serverHandler.Read());
+                    if (gameController.ChkPlayerWon())
+                    {
+                        serverHandler.Write("OpponentWon");
+                        serverHandler.Read();
+                        gameController.EndSequence(winner: true);
+                        break;
+                    }
+                    else
+                    {
+                        serverHandler.Write("Continue");
+                        if (serverHandler.Read() == "OpponentWon")
+                        {
+                            gameController.EndSequence(winner: false);
+                            break;
+                        }
+                    }
                 }
 
             }
@@ -96,6 +112,7 @@ namespace NBBallServer
         private string mySecretNumber;
         private bool isGaming;
         private int score;
+        private int strikeCount;
 
         public void Initialize()
         {
@@ -111,7 +128,7 @@ namespace NBBallServer
         }
         public string EvaluateNumber(string query)
         {
-            int strikeCount = 0;
+            strikeCount = 0;
             int ballCount = 0;
             for (int i = 0; i < 4; i++)
             {
@@ -130,6 +147,31 @@ namespace NBBallServer
         {
             string[] parsedResult = result.Split(" ");
             Console.WriteLine(parsedResult[0]+"스트라이크 "+parsedResult[1]+"볼");
+        }
+
+
+        public bool ChkPlayerWon()
+        {
+            if (strikeCount == 4)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void EndSequence(bool winner)
+        {
+            if (winner)
+            {
+                Console.WriteLine("상대의 숫자를 맞추셨습니다! 축하합니다!");
+            }
+            else
+            {
+                Console.WriteLine("상대가 먼저 숫자를 맞추었습니다...");
+            }
         }
     }
 }

@@ -31,8 +31,23 @@ namespace NBBallClient
                     clientHandler.Write(query);
                     clientHandler.Write(gameController.EvaluateNumber(clientHandler.Read()));
                     gameController.DisplayResult(clientHandler.Read());
+                    if (gameController.ChkPlayerWon())
+                    {
+                        clientHandler.Write("OpponentWon");
+                        clientHandler.Read();
+                        gameController.EndSequence(winner: true);
+                        break;
+                    }
+                    else
+                    {
+                        clientHandler.Write("Continue");
+                        if (clientHandler.Read() == "OpponentWon")
+                        {
+                            gameController.EndSequence(winner: false);
+                            break;
+                        }
+                    }
                 }
-
             }
         }
     }
@@ -104,6 +119,7 @@ namespace NBBallClient
         private string mySecretNumber;
         private bool isGaming;
         private int score;
+        private int strikeCount;
 
         public void Initialize()
         {
@@ -138,6 +154,30 @@ namespace NBBallClient
         {
             string[] parsedResult = result.Split(" ");
             Console.WriteLine(parsedResult[0] + "스트라이크 " + parsedResult[1] + "볼");
+            strikeCount = int.Parse(parsedResult[0]);
+        }
+        public bool ChkPlayerWon()
+        {
+            if(strikeCount == 4)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void EndSequence(bool winner)
+        {
+            if (winner)
+            {
+                Console.WriteLine("상대의 숫자를 맞추셨습니다! 축하합니다!");
+            }
+            else
+            {
+                Console.WriteLine("상대가 먼저 숫자를 맞추었습니다...");
+            }
         }
     }
 }
