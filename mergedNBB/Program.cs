@@ -166,9 +166,9 @@ namespace mergedNBB
         {
             Console.Write("당신의 비밀번호를 입력하세요 : ");
             mySecretNumber = Console.ReadLine();
-            while (mySecretNumber.Length != 4 || int.TryParse(mySecretNumber, out int a) == false)
+            while (mySecretNumber.Length != 4 || int.TryParse(mySecretNumber, out int a) == false || a <= 0) 
             {
-                Console.Write("4자리 정수로 입력해 주세요 : ");
+                Console.Write("4자리 양의 정수로 입력해 주세요 : ");
                 mySecretNumber = Console.ReadLine();
             }
             Console.WriteLine("숫자가 입력되었습니다. 게임을 시작합니다!");
@@ -182,7 +182,7 @@ namespace mergedNBB
             input = Console.ReadLine();
             while (input.Length != 4 || int.TryParse(input, out int a) == false || a < 0)
             {
-                Console.Write("4자리 정수로 입력해 주세요 : ");
+                Console.Write("4자리 양의 정수로 입력해 주세요 : ");
                 input = Console.ReadLine();
             }
             return input;
